@@ -1,5 +1,5 @@
 // OpenLog ESP32 Test Example
-// Tested with Espressif ESP32 v2.0.4 and the "ESP32 Dev Module" board definition#
+// Tested with Espressif ESP32 v2.0.5 and the "ESP32 Dev Module" board definition#
 // 240MHz (WiFi/BT)
 // Flash: 80MHz QIO 4MB "Default 4MB with SPIFFS"
 // Core Debug: None
@@ -46,9 +46,15 @@ void setup()
 
   delay(100);
 
-  if( !myISM.begin(IMU_CS) )
+  while( !myISM.begin(IMU_CS) )
   {
-    while(1); // Leave the STAT LED on to indicate an error
+    //while(1)
+    {
+      digitalWrite(STAT_LED, HIGH); // Blink the STAT LED
+      delay(200);
+      digitalWrite(STAT_LED, LOW); // Blink the STAT LED
+      delay(1800);
+    }
   }
 
   // Reset the device to default settings
@@ -56,8 +62,16 @@ void setup()
   myISM.deviceReset();
 
   // Wait for it to finish reseting
-  while( !myISM.getDeviceReset() ){ 
-    delay(1);
+  while( !myISM.getDeviceReset() )
+  { 
+    {
+      digitalWrite(STAT_LED, HIGH); // Blink the STAT LED
+      delay(200);
+      digitalWrite(STAT_LED, HIGH); // Blink the STAT LED
+      delay(200);
+      digitalWrite(STAT_LED, LOW); // Blink the STAT LED
+      delay(1600);
+    }
   } 
 
   delay(100);
@@ -72,9 +86,19 @@ void setup()
   // Disable the magnetometer
 
   SPISettings mySettings = SPISettings(3000000, MSBFIRST, SPI_MODE0);
-  if ( !myMag.begin(MAG_CS, mySettings, SPI) ) // .begin sets up the CS pin as an OUTPUT
+  while ( !myMag.begin(MAG_CS, mySettings, SPI) ) // .begin sets up the CS pin as an OUTPUT
   {
-    while (1); // Leave the STAT LED on to indicate an error
+    //while (1)
+    {
+      digitalWrite(STAT_LED, HIGH); // Blink the STAT LED
+      delay(200);
+      digitalWrite(STAT_LED, HIGH); // Blink the STAT LED
+      delay(200);
+      digitalWrite(STAT_LED, HIGH); // Blink the STAT LED
+      delay(200);
+      digitalWrite(STAT_LED, LOW); // Blink the STAT LED
+      delay(1400);
+    }
   }
 
   myMag.softReset();
@@ -88,6 +112,8 @@ void setup()
   // -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
   // Configure Sleep PowerDown
+
+  SPI.end();
 
   esp_sleep_config_gpio_isolate();
 
