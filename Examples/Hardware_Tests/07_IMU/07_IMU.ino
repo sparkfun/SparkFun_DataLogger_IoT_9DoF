@@ -1,5 +1,5 @@
 // OpenLog ESP32 Test Example
-// Tested with Espressif ESP32 v2.0.4 and the "ESP32 Dev Module" board definition
+// Tested with Espressif ESP32 v2.0.5 and the "ESP32 Dev Module" board definition
 
 //#define IMU_CS SS // The ISM330 chip select is connected to D5
 uint8_t IMU_CS = 5;
