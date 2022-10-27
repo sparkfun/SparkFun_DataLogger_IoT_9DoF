@@ -3,12 +3,15 @@
 
 
 // Set the Mag to run at 1000Hz.
-// Configure the Mag so it generates an interrupt on Data Ready.
+// Configure the Mag so it generates an interrupt on its INT pin.
 // ** Solder the MAG INT - D35 jumper closed **
 // Each time a Mag interrupt is detected, read the field data.
 // When writing the data to SD card, don't do anything too 'fancy' (like using a separate
-// thread for the writer). Just write the data in blocks of 512 bytes.... And see what happens!
+// thread for the writer). Just write the data in blocks of WRITE_BLOCK bytes.... And see what happens!
   
+
+#define WRITE_BLOCK 512
+
 
 #define EN_3V3_SW 32 // The 3.3V_SW regulator Enable pin is connected to D32
 
@@ -144,7 +147,7 @@ void loop()
   unsigned long counter = 0; // Record the number of samples
   unsigned long lastMicros = micros(); // Record the sample/write interval
 
-  char csvLine[2 * 512] = {0}; // Storage for the CSV data
+  char csvLine[2 * WRITE_BLOCK] = {0}; // Storage for the CSV data
   char *csvLinePtr = csvLine; // Pointer to the end of the data
 
   while (millis() < (startTime + 10000)) // Record data for 10 seconds
@@ -176,11 +179,11 @@ void loop()
         microsNow, microsNow - lastMicros,
         normalizedX, normalizedY, normalizedZ);
 
-      if (csvLinePtr >= (csvLine + 512)) // Have we got enough data to write to SD card?
+      if (csvLinePtr >= (csvLine + WRITE_BLOCK)) // Have we got enough data to write to SD card?
       {
-        file.write((const uint8_t *)csvLine, 512); // Write a block of 512 bytes
-        memcpy(csvLine, (const char *)(csvLine + 512), (csvLinePtr - (csvLine + 512)) + 1); // Move the remaining text - plus the NULL - to the start of csvLine
-        csvLinePtr -= 512; // Update the pointer
+        file.write((const uint8_t *)csvLine, WRITE_BLOCK); // Write a block of WRITE_BLOCK bytes
+        memcpy(csvLine, (const char *)(csvLine + WRITE_BLOCK), (csvLinePtr - (csvLine + WRITE_BLOCK)) + 1); // Move the remaining text - plus the NULL - to the start of csvLine
+        csvLinePtr -= WRITE_BLOCK; // Update the pointer
       }
 
       lastMicros = microsNow;
