@@ -1,6 +1,8 @@
 // OpenLog ESP32 Test Example
 // Tested with Espressif ESP32 v2.0.5 and the "ESP32 Dev Module" board definition
 
+// Needs v1.0.3 of the MMC5983MA Library
+
 //#define MAG_CS 27 // The MMC5983 chip select is connected to D27
 int MAG_CS = 27;
 
