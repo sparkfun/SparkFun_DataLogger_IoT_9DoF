@@ -1,5 +1,5 @@
 // OpenLog ESP32 Test Example
-// Tested with Espressif ESP32 v2.0.4 and the "ESP32 Dev Module" board definition
+// Tested with Espressif ESP32 v2.0.5 and the "ESP32 Dev Module" board definition
 
 //#define MAG_CS 27 // The MMC5983 chip select is connected to D27
 int MAG_CS = 27;
@@ -37,16 +37,14 @@ void setup()
 
 void loop()
 {
-    unsigned int currentX = 0;
-    unsigned int currentY = 0;
-    unsigned int currentZ = 0;
+    uint32_t currentX = 0;
+    uint32_t currentY = 0;
+    uint32_t currentZ = 0;
     double normalizedX = 0;
     double normalizedY = 0;
     double normalizedZ = 0;
 
-    currentX = myMag.getMeasurementX();
-    currentY = myMag.getMeasurementY();
-    currentZ = myMag.getMeasurementZ();
+    myMag.getMeasurementXYZ(&currentX, &currentY, &currentZ);
 
     Serial.print("X axis raw value: ");
     Serial.print(currentX);
