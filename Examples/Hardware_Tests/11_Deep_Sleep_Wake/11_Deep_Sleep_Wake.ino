@@ -67,10 +67,12 @@ void setup()
     {
       digitalWrite(STAT_LED, HIGH); // Blink the STAT LED
       delay(200);
+      digitalWrite(STAT_LED, LOW); // Blink the STAT LED
+      delay(200);
       digitalWrite(STAT_LED, HIGH); // Blink the STAT LED
       delay(200);
       digitalWrite(STAT_LED, LOW); // Blink the STAT LED
-      delay(1600);
+      delay(1400);
     }
   } 
 
@@ -92,12 +94,16 @@ void setup()
     {
       digitalWrite(STAT_LED, HIGH); // Blink the STAT LED
       delay(200);
-      digitalWrite(STAT_LED, HIGH); // Blink the STAT LED
+      digitalWrite(STAT_LED, LOW); // Blink the STAT LED
       delay(200);
       digitalWrite(STAT_LED, HIGH); // Blink the STAT LED
       delay(200);
       digitalWrite(STAT_LED, LOW); // Blink the STAT LED
-      delay(1400);
+      delay(200);
+      digitalWrite(STAT_LED, HIGH); // Blink the STAT LED
+      delay(200);
+      digitalWrite(STAT_LED, LOW); // Blink the STAT LED
+      delay(1000);
     }
   }
 
