@@ -1,5 +1,5 @@
 // OpenLog ESP32 Test Example
-// Tested with Espressif ESP32 v2.0.4 and the "ESP32 Dev Module" board definition#
+// Tested with Espressif ESP32 v2.0.5 and the "ESP32 Dev Module" board definition#
 // 240MHz (WiFi/BT)
 // Flash: 80MHz QIO 4MB "Default 4MB with SPIFFS"
 // Core Debug: None
