@@ -1,5 +1,5 @@
 // OpenLog ESP32 Test Example
-// Tested with Espressif ESP32 v2.0.4 and the "ESP32 Dev Module" board definition
+// Tested with Espressif ESP32 v2.0.5 and the "ESP32 Dev Module" board definition
 
 
 // Set the IMU accel and gyro to run at 1666Hz.
