@@ -1,5 +1,5 @@
 // OpenLog ESP32 Test Example
-// Tested with Espressif ESP32 v2.0.4 and the "ESP32 Dev Module" board definition
+// Tested with Espressif ESP32 v2.0.5 and the "ESP32 Dev Module" board definition
 
 // Based on: https://github.com/espressif/arduino-esp32/blob/master/libraries/SD_MMC/examples/SDMMC_Test/SDMMC_Test.ino
 
