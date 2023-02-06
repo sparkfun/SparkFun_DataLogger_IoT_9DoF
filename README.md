@@ -1,9 +1,9 @@
-SparkFun DataLogger IoT – 9DOF
+SparkFun DataLogger IoT – 9DoF
 ========================================
 
-[![SparkFun DataLogger IoT – 9DOF](https://cdn.sparkfun.com/assets/parts/2/0/4/2/4/20594-_01.jpg)](https://www.sparkfun.com/products/20594)
+[![SparkFun DataLogger IoT – 9DoF](https://cdn.sparkfun.com/assets/parts/2/0/4/2/4/20594-_01.jpg)](https://www.sparkfun.com/products/20594)
 
-[*SparkFun DataLogger IoT – 9DOF (DEV-20594)*](https://www.sparkfun.com/products/20594)
+[*SparkFun DataLogger IoT – 9DoF (DEV-20594)*](https://www.sparkfun.com/products/20594)
 
 An IoT-enabled ESP32-based logger with on-board IMU and magnetometer. The microSD interface is full 4-bit SDIO for fast logging.
 
@@ -15,11 +15,12 @@ Repository Contents
 
 Product Versions
 ----------------
-* [DEV-20594](https://www.sparkfun.com/products/20594) - v1.0
+* [DEV-20594](https://www.sparkfun.com/products/20594) - v1.1
 
 Version History
 ---------------
 - V1.0 - Initial release
+- V1.1 - Rename to DataLogger IoT – 9DoF
 
 License Information
 -------------------
