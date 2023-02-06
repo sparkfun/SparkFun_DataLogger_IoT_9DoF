@@ -1,11 +1,11 @@
-SparkFun OpenLog ESP32
+SparkFun DataLogger IoT – 9DOF
 ========================================
 
-[![SparkFun OpenLog ESP32](https://cdn.sparkfun.com/assets/parts/2/0/4/2/4/20594-_01.jpg)](https://www.sparkfun.com/products/20594)
+[![SparkFun DataLogger IoT – 9DOF](https://cdn.sparkfun.com/assets/parts/2/0/4/2/4/20594-_01.jpg)](https://www.sparkfun.com/products/20594)
 
-[*SparkFun OpenLog ESP32 (DEV-20594)*](https://www.sparkfun.com/products/20594)
+[*SparkFun DataLogger IoT – 9DOF (DEV-20594)*](https://www.sparkfun.com/products/20594)
 
-An ESP32-based logger with on-board IMU and magnetometer. The microSD interface is full 4-bit SDIO for fast logging.
+An IoT-enabled ESP32-based logger with on-board IMU and magnetometer. The microSD interface is full 4-bit SDIO for fast logging.
 
 
 Repository Contents
