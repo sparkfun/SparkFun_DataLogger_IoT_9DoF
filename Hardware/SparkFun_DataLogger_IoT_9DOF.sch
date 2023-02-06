@@ -34369,7 +34369,7 @@ accelerometer and 3D digital gyroscope tailored for Industry 4.0 applications.&l
 <text x="99.06" y="271.78" size="2.54" layer="94" font="vector">ESP32 WROOM</text>
 <text x="106.68" y="233.68" size="2.54" layer="94" font="vector">USB-C</text>
 <text x="350.52" y="10.16" size="2.54" layer="94" font="vector">Paul Clark</text>
-<text x="421.64" y="7.62" size="2.54" layer="94" font="vector">v10</text>
+<text x="421.64" y="7.62" size="2.54" layer="94" font="vector">v11</text>
 <text x="226.06" y="271.78" size="2.54" layer="94" font="vector">Reset and Boot</text>
 <text x="337.82" y="271.78" size="2.54" layer="94" font="vector">LEDs</text>
 <wire x1="0" y1="175.26" x2="99.06" y2="175.26" width="0.1524" layer="97" style="longdash"/>
@@ -36814,7 +36814,7 @@ Output Discharge: 530Ω Typ</text>
 <approved hash="113,1,175.853,20.3556,J5,,,,,"/>
 <approved hash="113,1,60.2827,20.4826,J6,,,,,"/>
 <approved hash="113,1,27.2627,20.4826,J7,,,,,"/>
-<approved hash="113,1,217.763,21.7526,J8,,,,,"/>
+<approved hash="113,1,212.683,21.7526,J8,,,,,"/>
 </errors>
 </schematic>
 </drawing>
