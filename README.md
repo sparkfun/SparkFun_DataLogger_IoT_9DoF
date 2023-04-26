@@ -15,12 +15,13 @@ Repository Contents
 
 Product Versions
 ----------------
+
 * [DEV-20594](https://www.sparkfun.com/products/20594) - v1.1
 
 Version History
 ---------------
-- V1.0 - Initial release
-- V1.1 - Rename to DataLogger IoT – 9DoF
+
+- V1.1 - Initial release, rename to DataLogger IoT – 9DoF
 
 License Information
 -------------------
