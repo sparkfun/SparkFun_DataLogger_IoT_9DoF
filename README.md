@@ -13,6 +13,12 @@ Repository Contents
 * **/Firmware** - Example code and hardware testing
 * **/Hardware** - Eagle design files (.brd, .sch)
 
+Documentation
+-------------------
+
+* **[Hookup Guide](https://docs.sparkfun.com/SparkFun_DataLogger/)** - Basic hookup guide for the Datalogger IoT
+* **[Firmware](https://github.com/sparkfun/SparkFun_DataLogger/tree/main/firmware)** - Repo for the Datalogger IoT
+
 Product Versions
 ----------------
 
