@@ -10,7 +10,7 @@ An IoT-enabled ESP32-based logger with on-board IMU and magnetometer. The microS
 
 Repository Contents
 -------------------
-* **/Firmware** - Example code and hardware testing
+* **/Firmware** - Example code for hardware testing
 * **/Hardware** - Eagle design files (.brd, .sch)
 
 Documentation
