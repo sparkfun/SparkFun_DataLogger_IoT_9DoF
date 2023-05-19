@@ -1,20 +1,39 @@
-/*
-  Configuring the GNSS to automatically send RXM SFRBX and RAWX reports over SPI and log them to file on SD card using full 4-bit SDIO
-  By: Paul Clark
-  SparkFun Electronics
-  Date: October 20th, 2022
-  License: MIT. See license file for more information but you can
-  basically do whatever you want with this code.
+// SparkFun DataLogger IoT – 9DoF Test Example
+// Tested with Espressif ESP32 v2.0.5 and the "ESP32 Dev Module" board definition
 
+/**********************************************************************************************
+ *
+ * WARNING!
+ * 
+ * This is a sketch we wrote to test the DataLogger IoT – 9DoF hardware.
+ * Please think very carefully before uploading it to your DataLogger.
+ * 
+ * You will overwrite the DataLogger firmware, leaving it unable to update or restore itself. 
+ * 
+ * The DataLogger IoT – 9DoF comes pre-programmed with amazing firmware which can do _so_ much.
+ * It is designed to be able to update itself and restore itself if necessary.
+ * But it can not do that if you overwrite the firmware with this test sketch.
+ * It is just like erasing the restore partition on your computer hard drive.
+ * Do not do it - unless you really know what you are doing.
+ * 
+ * Really. We mean it.
+ * 
+ * Your friends at SparkFun.
+ * 
+ * License: MIT. Please see LICENSE.MD for more details
+ * 
+ **********************************************************************************************/
+
+/*
   This example shows how to configure the u-blox GNSS to send RXM SFRBX and RAWX reports automatically
   and log the data to SD card in UBX format.
   
-  This code is written for the OpenLog ESP32 (DEV-20594) - coming soon!
+  This code is written for the DataLogger IoT – 9DoF (DEV-20594)
 
   Hardware set-up:
   Close the DSEL jumper on the ZED-F9P breakout - to select SPI mode
   Connect:
-  OpenLog ESP32 : ZED-F9P
+  DataLogger    : ZED-F9P
   GND             GND
   3V3_SW          3V3
   SCK  (18)       SCK
@@ -28,14 +47,14 @@
 
   Feel like supporting open source hardware?
   Buy a board from SparkFun!
-  OpenLog ESP32: https://www.sparkfun.com/products/20594
+  DataLogger IoT – 9DoF: https://www.sparkfun.com/products/20594
   ZED-F9P RTK2: https://www.sparkfun.com/products/15136
   NEO-M8P RTK: https://www.sparkfun.com/products/15005
 */
 
-#define GNSS_CS 33   // Connect the ZED-F9P CS pin to OpenLog ESP32 pin 33
+#define GNSS_CS 33   // Connect the ZED-F9P CS pin to DataLogger IoT – 9DoF pin 33
 #define EN_3V3_SW 32 // The 3.3V_SW regulator Enable pin is connected to D32
-#define STAT_LED 25  // The OpenLog ESP32 STAT LED is connected to pin 25
+#define STAT_LED 25  // The DataLogger IoT – 9DoF STAT LED is connected to pin 25
 #define IMU_CS 5     // The ISM330 IMU CS is connected to pin 5
 #define MAG_CS 27    // The MMC5983 Mag CS is connected to pin 27
 
@@ -113,7 +132,7 @@ void setup()
   digitalWrite(EN_3V3_SW, HIGH);
   
   delay(3000); // Allow time for the GNSS and SD card to start up and for Tera Term to reconnect
-  Serial.println(F("SparkFun OpenLog ESP32 GNSS Logging : SPI and SDIO"));
+  Serial.println(F("SparkFun DataLogger IoT – 9DoF GNSS Logging : SPI and SDIO"));
 
   // -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
   // Initialize the GNSS
