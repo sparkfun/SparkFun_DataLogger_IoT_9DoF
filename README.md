@@ -32,7 +32,7 @@ Version History
 License Information
 -------------------
 
-This hardware is _**open source**_!
+This hardware and the hardware test sketches contained in this GitHub repo are _**open source**_!
 
 Please review the LICENSE.md file for license information. 
 
