@@ -243,8 +243,10 @@
 Lead-Free HASL Finish
 Red Solder Resist
 White Silkscreen
+Material: TG155
+Stackup: JLC7628
 </text>
-<text x="45.72" y="0.381" size="1.778" layer="16" font="vector" ratio="15" rot="SMR0" align="bottom-center">v11</text>
+<text x="45.72" y="0.381" size="1.778" layer="16" font="vector" ratio="15" rot="SMR0" align="bottom-center">v12</text>
 <text x="-1.27" y="43.18" size="1.778" layer="47" font="vector" ratio="15" align="bottom-right">Dimensions
 In Inches</text>
 <wire x1="42.926" y1="18.415" x2="43.815" y2="18.415" width="0.2032" layer="22"/>
@@ -271,6 +273,8 @@ In Inches</text>
 <wire x1="34.671" y1="33.909" x2="34.671" y2="33.401" width="0.0762" layer="41"/>
 <text x="1.27" y="0.381" size="1.778" layer="2" font="vector" ratio="15" rot="SR0" align="bottom-center">2</text>
 <text x="1.27" y="0.381" size="1.778" layer="15" font="vector" ratio="15" rot="SMR0" align="bottom-center">3</text>
+<text x="115.57" y="-8.89" size="1.778" layer="51" font="vector" ratio="15">Alex Brudner</text>
+<text x="100.33" y="-8.89" size="1.778" layer="51">Revised by: </text>
 </plain>
 <libraries>
 <library name="SparkFun-Capacitors">
@@ -630,47 +634,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="0" y1="-8.89" x2="0" y2="0" width="0.2032" layer="51"/>
 <wire x1="0" y1="-8.89" x2="101.6" y2="-8.89" width="0.2032" layer="51"/>
 <text x="1.27" y="-6.35" size="1.778" layer="51" font="vector" align="top-left">(Add these comments when uploading gerbers.)</text>
-</package>
-<package name="OSHW-LOGO-S">
-<description>&lt;h3&gt;Open-Source Hardware (OSHW) Logo - Small - Silkscreen&lt;/h3&gt;
-&lt;p&gt;Silkscreen logo for open-source hardware designs.&lt;/p&gt;
-&lt;p&gt;Devices using:
-&lt;ul&gt;&lt;li&gt;OSHW_LOGO&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</description>
-<polygon width="0.15" layer="21">
-<vertex x="0.3947" y="-0.9528" curve="9.498218"/>
-<vertex x="0.5465" y="-0.8746"/>
-<vertex x="0.9235" y="-1.182"/>
-<vertex x="1.182" y="-0.9235"/>
-<vertex x="0.8746" y="-0.5465" curve="19.000773"/>
-<vertex x="1.0049" y="-0.232"/>
-<vertex x="1.4888" y="-0.1828"/>
-<vertex x="1.4888" y="0.1828"/>
-<vertex x="1.0049" y="0.232" curve="19.000773"/>
-<vertex x="0.8746" y="0.5465"/>
-<vertex x="1.182" y="0.9235"/>
-<vertex x="0.9235" y="1.182"/>
-<vertex x="0.5465" y="0.8746" curve="19.000773"/>
-<vertex x="0.232" y="1.0049"/>
-<vertex x="0.1828" y="1.4888"/>
-<vertex x="-0.1828" y="1.4888"/>
-<vertex x="-0.232" y="1.0049" curve="19.000773"/>
-<vertex x="-0.5465" y="0.8746"/>
-<vertex x="-0.9235" y="1.182"/>
-<vertex x="-1.182" y="0.9235"/>
-<vertex x="-0.8746" y="0.5465" curve="19.000773"/>
-<vertex x="-1.0049" y="0.232"/>
-<vertex x="-1.4888" y="0.1828"/>
-<vertex x="-1.4888" y="-0.1828"/>
-<vertex x="-1.0049" y="-0.232" curve="19.000773"/>
-<vertex x="-0.8746" y="-0.5465"/>
-<vertex x="-1.182" y="-0.9235"/>
-<vertex x="-0.9235" y="-1.182"/>
-<vertex x="-0.5465" y="-0.8746" curve="9.498218"/>
-<vertex x="-0.3947" y="-0.9528"/>
-<vertex x="-0.1794" y="-0.4331" curve="-67.514699"/>
-<vertex x="-0.4688" y="0" curve="-247.473915"/>
-<vertex x="0.1794" y="-0.4331"/>
-</polygon>
 </package>
 <package name="QWIIC_6MM">
 <polygon width="0.0127" layer="21">
@@ -12926,11 +12889,10 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <attribute name="PROD_ID" value="IC-14038" x="44.45" y="-82.55" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="21.59" y="10.16" size="0.6096" layer="27"/>
 </element>
-<element name="U3" library="SparkFun-IC-Power" package="SOT23-5" value="XC6222B331MR-G" x="41.275" y="21.59" smashed="yes" rot="R90">
-<attribute name="IOUT" value="700mA" x="41.275" y="21.59" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="U3" library="SparkFun-IC-Power" package="SOT23-5" value="3.3V" x="41.275" y="21.59" smashed="yes" rot="R90">
 <attribute name="NAME" x="39.116" y="19.812" size="0.6096" layer="25" ratio="20" rot="R90"/>
-<attribute name="PROD_ID" value="VREG-16775" x="135.255" y="83.82" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VOUT" value="3.3V" x="41.275" y="21.59" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PROD_ID" value="VREG-12457" x="135.255" y="83.82" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" value="3.3V" x="41.275" y="21.59" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="U4" library="SparkFun-IC-Power" package="DFN-8" value="MAX17048" x="4.953" y="15.875" smashed="yes">
 <attribute name="NAME" x="4.953" y="17.399" size="0.254" layer="25" font="vector" align="bottom-center"/>
@@ -12942,11 +12904,10 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <attribute name="PROD_ID" value="IC-09995" x="66.421" y="-78.105" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="6.223" y="13.081" size="0.6096" layer="27" ratio="20"/>
 </element>
-<element name="U6" library="SparkFun-IC-Power" package="SOT23-5" value="XC6222B331MR-G" x="12.7" y="21.59" smashed="yes" rot="R270">
-<attribute name="IOUT" value="700mA" x="12.7" y="21.59" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="U6" library="SparkFun-IC-Power" package="SOT23-5" value="3.3V" x="12.7" y="21.59" smashed="yes" rot="R270">
 <attribute name="NAME" x="14.859" y="23.368" size="0.6096" layer="25" ratio="20" rot="R270"/>
-<attribute name="PROD_ID" value="VREG-16775" x="-81.28" y="-44.45" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VOUT" value="3.3V" x="12.7" y="21.59" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PROD_ID" value="VREG-12457" x="-81.28" y="-44.45" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" value="3.3V" x="12.7" y="21.59" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="U7" library="SparkFun-Sensors" package="LGA-14L" value="ISM330DHCX" x="44.45" y="29.21" smashed="yes">
 <attribute name="NAME" x="44.45" y="29.249" size="0.6096" layer="25" font="vector" ratio="20" align="center"/>
@@ -13090,7 +13051,6 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <element name="U$41" library="output" package="#MAG_INT#0" value="" x="19.812" y="25.4" smashed="yes" rot="MR0"/>
 <element name="U$42" library="output" package="#35#0" value="" x="18.288" y="27.94" smashed="yes" rot="MR0"/>
 <element name="U$43" library="output" package="#35#0" value="" x="18.288" y="25.4" smashed="yes" rot="MR0"/>
-<element name="LOGO4" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="25.4" y="17.78" smashed="yes" rot="MR0"/>
 <element name="U$45" library="output" package="#SHLD#0" value="" x="34.798" y="5.842" smashed="yes" rot="MR0"/>
 <element name="U$46" library="output" package="#I�C#0" value="" x="36.83" y="11.4935" smashed="yes" rot="MR0"/>
 <element name="U$47" library="output" package="STAT_LED0" value="" x="43.18" y="18.415" smashed="yes" rot="MR0"/>

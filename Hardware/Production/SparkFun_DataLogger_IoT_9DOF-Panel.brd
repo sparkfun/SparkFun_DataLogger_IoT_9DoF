@@ -10,18 +10,6 @@
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
-<layer number="3" name="Route3" color="17" fill="1" visible="no" active="no"/>
-<layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
-<layer number="5" name="Route5" color="19" fill="1" visible="no" active="no"/>
-<layer number="6" name="Route6" color="25" fill="1" visible="no" active="no"/>
-<layer number="7" name="Route7" color="26" fill="1" visible="no" active="no"/>
-<layer number="8" name="Route8" color="27" fill="1" visible="no" active="no"/>
-<layer number="9" name="Route9" color="28" fill="1" visible="no" active="no"/>
-<layer number="10" name="Route10" color="29" fill="1" visible="no" active="no"/>
-<layer number="11" name="Route11" color="30" fill="1" visible="no" active="no"/>
-<layer number="12" name="Route12" color="20" fill="1" visible="no" active="no"/>
-<layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
-<layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
 <layer number="15" name="Route15" color="23" fill="1" visible="no" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
@@ -235,7 +223,7 @@
 <wire x1="2.54" y1="11.43" x2="2.54" y2="12.7" width="0.2032" layer="21"/>
 <wire x1="1.905" y1="12.065" x2="3.175" y2="12.065" width="0.2032" layer="21"/>
 <wire x1="6.985" y1="12.065" x2="8.255" y2="12.065" width="0.2032" layer="21"/>
-<text x="45.72" y="0.381" size="1.778" layer="16" font="vector" ratio="15" rot="SMR0" align="bottom-center">v11</text>
+<text x="45.72" y="0.381" size="1.778" layer="16" font="vector" ratio="15" rot="SMR0" align="bottom-center">v12</text>
 <wire x1="42.926" y1="18.415" x2="43.815" y2="18.415" width="0.2032" layer="22"/>
 <wire x1="43.815" y1="18.415" x2="44.45" y2="19.05" width="0.2032" layer="22"/>
 <wire x1="44.45" y1="19.05" x2="45.339" y2="19.05" width="0.2032" layer="22"/>
@@ -300,7 +288,7 @@
 <wire x1="53.848" y1="11.43" x2="53.848" y2="12.7" width="0.2032" layer="21"/>
 <wire x1="53.213" y1="12.065" x2="54.483" y2="12.065" width="0.2032" layer="21"/>
 <wire x1="58.293" y1="12.065" x2="59.563" y2="12.065" width="0.2032" layer="21"/>
-<text x="97.028" y="0.381" size="1.778" layer="16" font="vector" ratio="15" rot="SMR0" align="bottom-center">v11</text>
+<text x="97.028" y="0.381" size="1.778" layer="16" font="vector" ratio="15" rot="SMR0" align="bottom-center">v12</text>
 <wire x1="94.234" y1="18.415" x2="95.123" y2="18.415" width="0.2032" layer="22"/>
 <wire x1="95.123" y1="18.415" x2="95.758" y2="19.05" width="0.2032" layer="22"/>
 <wire x1="95.758" y1="19.05" x2="96.647" y2="19.05" width="0.2032" layer="22"/>
@@ -365,7 +353,7 @@
 <wire x1="2.54" y1="56.388" x2="2.54" y2="57.658" width="0.2032" layer="21"/>
 <wire x1="1.905" y1="57.023" x2="3.175" y2="57.023" width="0.2032" layer="21"/>
 <wire x1="6.985" y1="57.023" x2="8.255" y2="57.023" width="0.2032" layer="21"/>
-<text x="45.72" y="45.339" size="1.778" layer="16" font="vector" ratio="15" rot="SMR0" align="bottom-center">v11</text>
+<text x="45.72" y="45.339" size="1.778" layer="16" font="vector" ratio="15" rot="SMR0" align="bottom-center">v12</text>
 <wire x1="42.926" y1="63.373" x2="43.815" y2="63.373" width="0.2032" layer="22"/>
 <wire x1="43.815" y1="63.373" x2="44.45" y2="64.008" width="0.2032" layer="22"/>
 <wire x1="44.45" y1="64.008" x2="45.339" y2="64.008" width="0.2032" layer="22"/>
@@ -430,7 +418,7 @@
 <wire x1="53.848" y1="56.388" x2="53.848" y2="57.658" width="0.2032" layer="21"/>
 <wire x1="53.213" y1="57.023" x2="54.483" y2="57.023" width="0.2032" layer="21"/>
 <wire x1="58.293" y1="57.023" x2="59.563" y2="57.023" width="0.2032" layer="21"/>
-<text x="97.028" y="45.339" size="1.778" layer="16" font="vector" ratio="15" rot="SMR0" align="bottom-center">v11</text>
+<text x="97.028" y="45.339" size="1.778" layer="16" font="vector" ratio="15" rot="SMR0" align="bottom-center">v12</text>
 <wire x1="94.234" y1="63.373" x2="95.123" y2="63.373" width="0.2032" layer="22"/>
 <wire x1="95.123" y1="63.373" x2="95.758" y2="64.008" width="0.2032" layer="22"/>
 <wire x1="95.758" y1="64.008" x2="96.647" y2="64.008" width="0.2032" layer="22"/>
@@ -495,7 +483,7 @@
 <wire x1="2.54" y1="101.346" x2="2.54" y2="102.616" width="0.2032" layer="21"/>
 <wire x1="1.905" y1="101.981" x2="3.175" y2="101.981" width="0.2032" layer="21"/>
 <wire x1="6.985" y1="101.981" x2="8.255" y2="101.981" width="0.2032" layer="21"/>
-<text x="45.72" y="90.297" size="1.778" layer="16" font="vector" ratio="15" rot="SMR0" align="bottom-center">v11</text>
+<text x="45.72" y="90.297" size="1.778" layer="16" font="vector" ratio="15" rot="SMR0" align="bottom-center">v12</text>
 <wire x1="42.926" y1="108.331" x2="43.815" y2="108.331" width="0.2032" layer="22"/>
 <wire x1="43.815" y1="108.331" x2="44.45" y2="108.966" width="0.2032" layer="22"/>
 <wire x1="44.45" y1="108.966" x2="45.339" y2="108.966" width="0.2032" layer="22"/>
@@ -561,7 +549,7 @@
 <wire x1="53.848" y1="101.346" x2="53.848" y2="102.616" width="0.2032" layer="21"/>
 <wire x1="53.213" y1="101.981" x2="54.483" y2="101.981" width="0.2032" layer="21"/>
 <wire x1="58.293" y1="101.981" x2="59.563" y2="101.981" width="0.2032" layer="21"/>
-<text x="97.028" y="90.297" size="1.778" layer="16" font="vector" ratio="15" rot="SMR0" align="bottom-center">v11</text>
+<text x="97.028" y="90.297" size="1.778" layer="16" font="vector" ratio="15" rot="SMR0" align="bottom-center">v12</text>
 <wire x1="94.234" y1="108.331" x2="95.123" y2="108.331" width="0.2032" layer="22"/>
 <wire x1="95.123" y1="108.331" x2="95.758" y2="108.966" width="0.2032" layer="22"/>
 <wire x1="95.758" y1="108.966" x2="96.647" y2="108.966" width="0.2032" layer="22"/>
@@ -593,14 +581,22 @@
 <text x="51.054" y="150.368" size="1.778" layer="46" ratio="15" align="center">v-score</text>
 <wire x1="102.362" y1="-13.208" x2="102.362" y2="148.082" width="0.381" layer="46"/>
 <text x="102.362" y="150.368" size="1.778" layer="46" ratio="15" align="center">v-score</text>
-<wire x1="-0.508" y1="-6.858" x2="102.616" y2="-6.858" width="0.254" layer="20"/>
+<wire x1="-6.858" y1="-6.858" x2="108.966" y2="-6.858" width="0.254" layer="20"/>
+<wire x1="108.966" y1="-6.858" x2="108.966" y2="-13.208" width="0.254" layer="20"/>
 <wire x1="108.966" y1="-13.208" x2="-6.858" y2="-13.208" width="0.254" layer="20"/>
-<wire x1="108.966" y1="141.224" x2="108.966" y2="-13.208" width="0.254" layer="20"/>
-<wire x1="102.616" y1="-6.858" x2="102.616" y2="134.874" width="0.254" layer="20"/>
+<wire x1="-6.858" y1="-13.208" x2="-6.858" y2="-6.858" width="0.254" layer="20"/>
+<wire x1="102.616" y1="134.366" x2="108.966" y2="134.366" width="0.254" layer="20"/>
+<wire x1="108.966" y1="134.366" x2="108.966" y2="-6.35" width="0.254" layer="20"/>
+<wire x1="108.966" y1="-6.35" x2="102.616" y2="-6.35" width="0.254" layer="20"/>
+<wire x1="102.616" y1="-6.35" x2="102.616" y2="134.366" width="0.254" layer="20"/>
 <wire x1="-6.858" y1="141.224" x2="108.966" y2="141.224" width="0.254" layer="20"/>
-<wire x1="102.616" y1="134.874" x2="-0.508" y2="134.874" width="0.254" layer="20"/>
-<wire x1="-0.508" y1="134.874" x2="-0.508" y2="-6.858" width="0.254" layer="20"/>
-<wire x1="-6.858" y1="-13.208" x2="-6.858" y2="141.224" width="0.254" layer="20"/>
+<wire x1="108.966" y1="141.224" x2="108.966" y2="134.874" width="0.254" layer="20"/>
+<wire x1="108.966" y1="134.874" x2="-6.858" y2="134.874" width="0.254" layer="20"/>
+<wire x1="-6.858" y1="134.874" x2="-6.858" y2="141.224" width="0.254" layer="20"/>
+<wire x1="-6.858" y1="134.366" x2="-0.508" y2="134.366" width="0.254" layer="20"/>
+<wire x1="-0.508" y1="134.366" x2="-0.508" y2="-6.35" width="0.254" layer="20"/>
+<wire x1="-0.508" y1="-6.35" x2="-6.858" y2="-6.35" width="0.254" layer="20"/>
+<wire x1="-6.858" y1="-6.35" x2="-6.858" y2="134.366" width="0.254" layer="20"/>
 </plain>
 <libraries>
 <library name="SparkFun-Capacitors">
@@ -935,47 +931,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 &lt;p&gt;Devices using:
 &lt;ul&gt;&lt;li&gt;FIDUCIAL&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</description>
 <smd name="1" x="0" y="0" dx="1" dy="1" layer="1" roundness="100" cream="no"/>
-</package>
-<package name="OSHW-LOGO-S">
-<description>&lt;h3&gt;Open-Source Hardware (OSHW) Logo - Small - Silkscreen&lt;/h3&gt;
-&lt;p&gt;Silkscreen logo for open-source hardware designs.&lt;/p&gt;
-&lt;p&gt;Devices using:
-&lt;ul&gt;&lt;li&gt;OSHW_LOGO&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</description>
-<polygon width="0.15" layer="21">
-<vertex x="0.3947" y="-0.9528" curve="9.498218"/>
-<vertex x="0.5465" y="-0.8746"/>
-<vertex x="0.9235" y="-1.182"/>
-<vertex x="1.182" y="-0.9235"/>
-<vertex x="0.8746" y="-0.5465" curve="19.000773"/>
-<vertex x="1.0049" y="-0.232"/>
-<vertex x="1.4888" y="-0.1828"/>
-<vertex x="1.4888" y="0.1828"/>
-<vertex x="1.0049" y="0.232" curve="19.000773"/>
-<vertex x="0.8746" y="0.5465"/>
-<vertex x="1.182" y="0.9235"/>
-<vertex x="0.9235" y="1.182"/>
-<vertex x="0.5465" y="0.8746" curve="19.000773"/>
-<vertex x="0.232" y="1.0049"/>
-<vertex x="0.1828" y="1.4888"/>
-<vertex x="-0.1828" y="1.4888"/>
-<vertex x="-0.232" y="1.0049" curve="19.000773"/>
-<vertex x="-0.5465" y="0.8746"/>
-<vertex x="-0.9235" y="1.182"/>
-<vertex x="-1.182" y="0.9235"/>
-<vertex x="-0.8746" y="0.5465" curve="19.000773"/>
-<vertex x="-1.0049" y="0.232"/>
-<vertex x="-1.4888" y="0.1828"/>
-<vertex x="-1.4888" y="-0.1828"/>
-<vertex x="-1.0049" y="-0.232" curve="19.000773"/>
-<vertex x="-0.8746" y="-0.5465"/>
-<vertex x="-1.182" y="-0.9235"/>
-<vertex x="-0.9235" y="-1.182"/>
-<vertex x="-0.5465" y="-0.8746" curve="9.498218"/>
-<vertex x="-0.3947" y="-0.9528"/>
-<vertex x="-0.1794" y="-0.4331" curve="-67.514699"/>
-<vertex x="-0.4688" y="0" curve="-247.473915"/>
-<vertex x="0.1794" y="-0.4331"/>
-</polygon>
 </package>
 <package name="QWIIC_6MM">
 <polygon width="0.0127" layer="21">
@@ -13411,7 +13366,6 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <element name="U$41" library="output" package="#MAG_INT#0" value="" x="19.812" y="25.4" smashed="yes" rot="MR0"/>
 <element name="U$42" library="output" package="#35#0" value="" x="18.288" y="27.94" smashed="yes" rot="MR0"/>
 <element name="U$43" library="output" package="#35#0" value="" x="18.288" y="25.4" smashed="yes" rot="MR0"/>
-<element name="LOGO4" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="25.4" y="17.78" smashed="yes" rot="MR0"/>
 <element name="U$45" library="output" package="#SHLD#0" value="" x="34.798" y="5.842" smashed="yes" rot="MR0"/>
 <element name="U$46" library="output" package="#I�C#0" value="" x="36.83" y="11.4935" smashed="yes" rot="MR0"/>
 <element name="U$47" library="output" package="STAT_LED0" value="" x="43.18" y="18.415" smashed="yes" rot="MR0"/>
@@ -13903,7 +13857,6 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <element name="U$88" library="output" package="#MAG_INT#0" value="" x="71.12" y="25.4" smashed="yes" rot="MR0"/>
 <element name="U$89" library="output" package="#35#0" value="" x="69.596" y="27.94" smashed="yes" rot="MR0"/>
 <element name="U$90" library="output" package="#35#0" value="" x="69.596" y="25.4" smashed="yes" rot="MR0"/>
-<element name="LOGO2" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="76.708" y="17.78" smashed="yes" rot="MR0"/>
 <element name="U$91" library="output" package="#SHLD#0" value="" x="86.106" y="5.842" smashed="yes" rot="MR0"/>
 <element name="U$92" library="output" package="#I�C#0" value="" x="88.138" y="11.4935" smashed="yes" rot="MR0"/>
 <element name="U$93" library="output" package="STAT_LED0" value="" x="94.488" y="18.415" smashed="yes" rot="MR0"/>
@@ -13961,8 +13914,8 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 </element>
 <element name="IMU_!CS!1" library="SparkFun-Connectors" package="PAD.03X.05" value="TEST-POINT3X5" x="65.278" y="35.56" smashed="yes" rot="MR0"/>
 <element name="MAG_!CS!1" library="SparkFun-Connectors" package="PAD.03X.05" value="TEST-POINT3X5" x="66.548" y="20.32" smashed="yes" rot="MR0"/>
-<element name="LOGO7" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_.2" value="SFE_LOGO_NAME.2_INCH" x="76.708" y="31.75" smashed="yes" rot="MR0"/>
-<element name="LOGO8" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.2" value="SFE_LOGO_FLAME.2_INCH" x="96.774" y="17.78" smashed="yes"/>
+<element name="LOGO2" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_.2" value="SFE_LOGO_NAME.2_INCH" x="76.708" y="31.75" smashed="yes" rot="MR0"/>
+<element name="LOGO4" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.2" value="SFE_LOGO_FLAME.2_INCH" x="96.774" y="17.78" smashed="yes"/>
 <element name="IMU_INT4" library="SparkFun-Connectors" package="PAD.03X.05" value="TEST-POINT3X5" x="62.738" y="35.56" smashed="yes" rot="MR0"/>
 <element name="U$97" library="output" package="DATALOGGER0" value="" x="90.551" y="25.654" smashed="yes"/>
 <element name="U$98" library="output" package="DATALOGGER1" value="" x="76.708" y="22.86" smashed="yes" rot="MR0"/>
@@ -14359,7 +14312,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <element name="U$103" library="output" package="CHG0" value="" x="10.795" y="49.784" smashed="yes" rot="R90"/>
 <element name="U$104" library="output" package="CHG0" value="" x="10.795" y="49.784" smashed="yes" rot="MR90"/>
 <element name="U$105" library="output" package="STAT0" value="" x="12.7" y="50.292" smashed="yes" rot="MR90"/>
-<element name="LOGO9" library="SparkFun-Aesthetics" package="QWIIC_6MM" value="QWIIC_LOGO_6MM" x="45.212" y="51.816" smashed="yes"/>
+<element name="LOGO7" library="SparkFun-Aesthetics" package="QWIIC_6MM" value="QWIIC_LOGO_6MM" x="45.212" y="51.816" smashed="yes"/>
 <element name="U$106" library="output" package="IMU0" value="" x="41.148" y="74.168" smashed="yes" rot="R90"/>
 <element name="U$107" library="output" package="MAG0" value="" x="9.652" y="74.168" smashed="yes" rot="R90"/>
 <element name="U$108" library="output" package="X0" value="" x="9.017" y="79.756" smashed="yes"/>
@@ -14395,7 +14348,6 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <element name="U$138" library="output" package="#MAG_INT#0" value="" x="19.812" y="70.358" smashed="yes" rot="MR0"/>
 <element name="U$139" library="output" package="#35#0" value="" x="18.288" y="72.898" smashed="yes" rot="MR0"/>
 <element name="U$140" library="output" package="#35#0" value="" x="18.288" y="70.358" smashed="yes" rot="MR0"/>
-<element name="LOGO10" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="25.4" y="62.738" smashed="yes" rot="MR0"/>
 <element name="U$141" library="output" package="#SHLD#0" value="" x="34.798" y="50.8" smashed="yes" rot="MR0"/>
 <element name="U$142" library="output" package="#I�C#0" value="" x="36.83" y="56.4515" smashed="yes" rot="MR0"/>
 <element name="U$143" library="output" package="STAT_LED0" value="" x="43.18" y="63.373" smashed="yes" rot="MR0"/>
@@ -14453,8 +14405,8 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 </element>
 <element name="IMU_!CS!2" library="SparkFun-Connectors" package="PAD.03X.05" value="TEST-POINT3X5" x="13.97" y="80.518" smashed="yes" rot="MR0"/>
 <element name="MAG_!CS!2" library="SparkFun-Connectors" package="PAD.03X.05" value="TEST-POINT3X5" x="15.24" y="65.278" smashed="yes" rot="MR0"/>
-<element name="LOGO11" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_.2" value="SFE_LOGO_NAME.2_INCH" x="25.4" y="76.708" smashed="yes" rot="MR0"/>
-<element name="LOGO12" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.2" value="SFE_LOGO_FLAME.2_INCH" x="45.466" y="62.738" smashed="yes"/>
+<element name="LOGO8" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_.2" value="SFE_LOGO_NAME.2_INCH" x="25.4" y="76.708" smashed="yes" rot="MR0"/>
+<element name="LOGO9" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.2" value="SFE_LOGO_FLAME.2_INCH" x="45.466" y="62.738" smashed="yes"/>
 <element name="IMU_INT6" library="SparkFun-Connectors" package="PAD.03X.05" value="TEST-POINT3X5" x="11.43" y="80.518" smashed="yes" rot="MR0"/>
 <element name="U$147" library="output" package="DATALOGGER0" value="" x="39.243" y="70.612" smashed="yes"/>
 <element name="U$148" library="output" package="DATALOGGER1" value="" x="25.4" y="67.818" smashed="yes" rot="MR0"/>
@@ -14851,7 +14803,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <element name="U$153" library="output" package="CHG0" value="" x="62.103" y="49.784" smashed="yes" rot="R90"/>
 <element name="U$154" library="output" package="CHG0" value="" x="62.103" y="49.784" smashed="yes" rot="MR90"/>
 <element name="U$155" library="output" package="STAT0" value="" x="64.008" y="50.292" smashed="yes" rot="MR90"/>
-<element name="LOGO13" library="SparkFun-Aesthetics" package="QWIIC_6MM" value="QWIIC_LOGO_6MM" x="96.52" y="51.816" smashed="yes"/>
+<element name="LOGO10" library="SparkFun-Aesthetics" package="QWIIC_6MM" value="QWIIC_LOGO_6MM" x="96.52" y="51.816" smashed="yes"/>
 <element name="U$156" library="output" package="IMU0" value="" x="92.456" y="74.168" smashed="yes" rot="R90"/>
 <element name="U$157" library="output" package="MAG0" value="" x="60.96" y="74.168" smashed="yes" rot="R90"/>
 <element name="U$158" library="output" package="X0" value="" x="60.325" y="79.756" smashed="yes"/>
@@ -14887,7 +14839,6 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <element name="U$188" library="output" package="#MAG_INT#0" value="" x="71.12" y="70.358" smashed="yes" rot="MR0"/>
 <element name="U$189" library="output" package="#35#0" value="" x="69.596" y="72.898" smashed="yes" rot="MR0"/>
 <element name="U$190" library="output" package="#35#0" value="" x="69.596" y="70.358" smashed="yes" rot="MR0"/>
-<element name="LOGO14" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="76.708" y="62.738" smashed="yes" rot="MR0"/>
 <element name="U$191" library="output" package="#SHLD#0" value="" x="86.106" y="50.8" smashed="yes" rot="MR0"/>
 <element name="U$192" library="output" package="#I�C#0" value="" x="88.138" y="56.4515" smashed="yes" rot="MR0"/>
 <element name="U$193" library="output" package="STAT_LED0" value="" x="94.488" y="63.373" smashed="yes" rot="MR0"/>
@@ -14945,8 +14896,8 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 </element>
 <element name="IMU_!CS!3" library="SparkFun-Connectors" package="PAD.03X.05" value="TEST-POINT3X5" x="65.278" y="80.518" smashed="yes" rot="MR0"/>
 <element name="MAG_!CS!3" library="SparkFun-Connectors" package="PAD.03X.05" value="TEST-POINT3X5" x="66.548" y="65.278" smashed="yes" rot="MR0"/>
-<element name="LOGO15" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_.2" value="SFE_LOGO_NAME.2_INCH" x="76.708" y="76.708" smashed="yes" rot="MR0"/>
-<element name="LOGO16" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.2" value="SFE_LOGO_FLAME.2_INCH" x="96.774" y="62.738" smashed="yes"/>
+<element name="LOGO11" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_.2" value="SFE_LOGO_NAME.2_INCH" x="76.708" y="76.708" smashed="yes" rot="MR0"/>
+<element name="LOGO12" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.2" value="SFE_LOGO_FLAME.2_INCH" x="96.774" y="62.738" smashed="yes"/>
 <element name="IMU_INT8" library="SparkFun-Connectors" package="PAD.03X.05" value="TEST-POINT3X5" x="62.738" y="80.518" smashed="yes" rot="MR0"/>
 <element name="U$197" library="output" package="DATALOGGER0" value="" x="90.551" y="70.612" smashed="yes"/>
 <element name="U$198" library="output" package="DATALOGGER1" value="" x="76.708" y="67.818" smashed="yes" rot="MR0"/>
@@ -15343,7 +15294,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <element name="U$203" library="output" package="CHG0" value="" x="10.795" y="94.742" smashed="yes" rot="R90"/>
 <element name="U$204" library="output" package="CHG0" value="" x="10.795" y="94.742" smashed="yes" rot="MR90"/>
 <element name="U$205" library="output" package="STAT0" value="" x="12.7" y="95.25" smashed="yes" rot="MR90"/>
-<element name="LOGO17" library="SparkFun-Aesthetics" package="QWIIC_6MM" value="QWIIC_LOGO_6MM" x="45.212" y="96.774" smashed="yes"/>
+<element name="LOGO13" library="SparkFun-Aesthetics" package="QWIIC_6MM" value="QWIIC_LOGO_6MM" x="45.212" y="96.774" smashed="yes"/>
 <element name="U$206" library="output" package="IMU0" value="" x="41.148" y="119.126" smashed="yes" rot="R90"/>
 <element name="U$207" library="output" package="MAG0" value="" x="9.652" y="119.126" smashed="yes" rot="R90"/>
 <element name="U$208" library="output" package="X0" value="" x="9.017" y="124.714" smashed="yes"/>
@@ -15379,7 +15330,6 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <element name="U$238" library="output" package="#MAG_INT#0" value="" x="19.812" y="115.316" smashed="yes" rot="MR0"/>
 <element name="U$239" library="output" package="#35#0" value="" x="18.288" y="117.856" smashed="yes" rot="MR0"/>
 <element name="U$240" library="output" package="#35#0" value="" x="18.288" y="115.316" smashed="yes" rot="MR0"/>
-<element name="LOGO18" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="25.4" y="107.696" smashed="yes" rot="MR0"/>
 <element name="U$241" library="output" package="#SHLD#0" value="" x="34.798" y="95.758" smashed="yes" rot="MR0"/>
 <element name="U$242" library="output" package="#I�C#0" value="" x="36.83" y="101.4095" smashed="yes" rot="MR0"/>
 <element name="U$243" library="output" package="STAT_LED0" value="" x="43.18" y="108.331" smashed="yes" rot="MR0"/>
@@ -15437,8 +15387,8 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 </element>
 <element name="IMU_!CS!4" library="SparkFun-Connectors" package="PAD.03X.05" value="TEST-POINT3X5" x="13.97" y="125.476" smashed="yes" rot="MR0"/>
 <element name="MAG_!CS!4" library="SparkFun-Connectors" package="PAD.03X.05" value="TEST-POINT3X5" x="15.24" y="110.236" smashed="yes" rot="MR0"/>
-<element name="LOGO19" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_.2" value="SFE_LOGO_NAME.2_INCH" x="25.4" y="121.666" smashed="yes" rot="MR0"/>
-<element name="LOGO20" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.2" value="SFE_LOGO_FLAME.2_INCH" x="45.466" y="107.696" smashed="yes"/>
+<element name="LOGO14" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_.2" value="SFE_LOGO_NAME.2_INCH" x="25.4" y="121.666" smashed="yes" rot="MR0"/>
+<element name="LOGO15" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.2" value="SFE_LOGO_FLAME.2_INCH" x="45.466" y="107.696" smashed="yes"/>
 <element name="IMU_INT10" library="SparkFun-Connectors" package="PAD.03X.05" value="TEST-POINT3X5" x="11.43" y="125.476" smashed="yes" rot="MR0"/>
 <element name="U$247" library="output" package="DATALOGGER0" value="" x="39.243" y="115.57" smashed="yes"/>
 <element name="U$248" library="output" package="DATALOGGER1" value="" x="25.4" y="112.776" smashed="yes" rot="MR0"/>
@@ -15835,7 +15785,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <element name="U$253" library="output" package="CHG0" value="" x="62.103" y="94.742" smashed="yes" rot="R90"/>
 <element name="U$254" library="output" package="CHG0" value="" x="62.103" y="94.742" smashed="yes" rot="MR90"/>
 <element name="U$255" library="output" package="STAT0" value="" x="64.008" y="95.25" smashed="yes" rot="MR90"/>
-<element name="LOGO21" library="SparkFun-Aesthetics" package="QWIIC_6MM" value="QWIIC_LOGO_6MM" x="96.52" y="96.774" smashed="yes"/>
+<element name="LOGO16" library="SparkFun-Aesthetics" package="QWIIC_6MM" value="QWIIC_LOGO_6MM" x="96.52" y="96.774" smashed="yes"/>
 <element name="U$256" library="output" package="IMU0" value="" x="92.456" y="119.126" smashed="yes" rot="R90"/>
 <element name="U$257" library="output" package="MAG0" value="" x="60.96" y="119.126" smashed="yes" rot="R90"/>
 <element name="U$258" library="output" package="X0" value="" x="60.325" y="124.714" smashed="yes"/>
@@ -15871,7 +15821,6 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <element name="U$288" library="output" package="#MAG_INT#0" value="" x="71.12" y="115.316" smashed="yes" rot="MR0"/>
 <element name="U$289" library="output" package="#35#0" value="" x="69.596" y="117.856" smashed="yes" rot="MR0"/>
 <element name="U$290" library="output" package="#35#0" value="" x="69.596" y="115.316" smashed="yes" rot="MR0"/>
-<element name="LOGO22" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="76.708" y="107.696" smashed="yes" rot="MR0"/>
 <element name="U$291" library="output" package="#SHLD#0" value="" x="86.106" y="95.758" smashed="yes" rot="MR0"/>
 <element name="U$292" library="output" package="#I�C#0" value="" x="88.138" y="101.4095" smashed="yes" rot="MR0"/>
 <element name="U$293" library="output" package="STAT_LED0" value="" x="94.488" y="108.331" smashed="yes" rot="MR0"/>
@@ -15929,8 +15878,8 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 </element>
 <element name="IMU_!CS!5" library="SparkFun-Connectors" package="PAD.03X.05" value="TEST-POINT3X5" x="65.278" y="125.476" smashed="yes" rot="MR0"/>
 <element name="MAG_!CS!5" library="SparkFun-Connectors" package="PAD.03X.05" value="TEST-POINT3X5" x="66.548" y="110.236" smashed="yes" rot="MR0"/>
-<element name="LOGO23" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_.2" value="SFE_LOGO_NAME.2_INCH" x="76.708" y="121.666" smashed="yes" rot="MR0"/>
-<element name="LOGO24" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.2" value="SFE_LOGO_FLAME.2_INCH" x="96.774" y="107.696" smashed="yes"/>
+<element name="LOGO17" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_.2" value="SFE_LOGO_NAME.2_INCH" x="76.708" y="121.666" smashed="yes" rot="MR0"/>
+<element name="LOGO18" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.2" value="SFE_LOGO_FLAME.2_INCH" x="96.774" y="107.696" smashed="yes"/>
 <element name="IMU_INT12" library="SparkFun-Connectors" package="PAD.03X.05" value="TEST-POINT3X5" x="62.738" y="125.476" smashed="yes" rot="MR0"/>
 <element name="U$297" library="output" package="DATALOGGER0" value="" x="90.551" y="115.57" smashed="yes"/>
 <element name="U$298" library="output" package="DATALOGGER1" value="" x="76.708" y="112.776" smashed="yes" rot="MR0"/>
