@@ -22,7 +22,7 @@ Documentation
 Product Versions
 ----------------
 
-* [DEV-20594](https://www.sparkfun.com/products/20594) - v1.1
+* [DEV-20594](https://www.sparkfun.com/products/20594) - v1.1 & v1.2 (minor silkscreen change)
 
 Version History
 ---------------
