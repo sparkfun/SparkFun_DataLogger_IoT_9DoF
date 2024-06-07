@@ -26,7 +26,7 @@ Product Versions
 
 Version History
 ---------------
-
+- V1.2 - DataLogger IoT – 9DoF with minor silkscreen change
 - V1.1 - Initial release, rename to DataLogger IoT – 9DoF
 
 License Information
