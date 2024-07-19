@@ -1,7 +1,7 @@
 SparkFun DataLogger IoT – 9DoF
 ========================================
 
-[![SparkFun DataLogger IoT – 9DoF](https://cdn.sparkfun.com/assets/parts/2/0/4/2/4/20594-_DEV_SparkFun_DataLogger_LoT-_02.jpg)](https://www.sparkfun.com/products/20594)
+[![SparkFun DataLogger IoT – 9DoF](https://cdn.sparkfun.com/r/600-600/assets/parts/2/0/4/2/4/DEV-20594-Datalogger-IoT-9DoF-New-Feature.jpg)](https://www.sparkfun.com/products/20594)
 
 [*SparkFun DataLogger IoT – 9DoF (DEV-20594)*](https://www.sparkfun.com/products/20594)
 
